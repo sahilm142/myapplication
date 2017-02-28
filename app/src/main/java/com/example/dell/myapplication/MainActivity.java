@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     FirebaseDatabase database;
     DatabaseReference mref,cref;
     TextView textView;
-    Button save;
+    Button save,save1;
     ListView courses_list;
     ArrayAdapter<String> arrayAdapter;
     ArrayList<String> arrayList=new ArrayList<>();
