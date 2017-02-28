@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c210967-1c25-4db1-811c-997d7d94a5a6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dell/myapplication/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dell/myapplication/MainActivity.java" />
     </list>
@@ -33,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dell/myapplication/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+              <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -2201,7 +2202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1488284152003</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initial Commit 3">
+      <created>1488287034991</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1488287034991</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2246,7 +2254,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit 2" />
+    <MESSAGE value="Initial Commit 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2256,7 +2265,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dell/myapplication/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
           <folding />
         </state>
       </provider>
