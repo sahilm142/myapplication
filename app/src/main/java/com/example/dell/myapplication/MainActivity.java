@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity implements ValueEventListene
     FirebaseAuth.AuthStateListener mAuthListener;
     ValueEventListener valueEventListener;
     String course_node;
+    //View v;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,9 +52,11 @@ public class MainActivity extends AppCompatActivity implements ValueEventListene
         mAuth = FirebaseAuth.getInstance();
         intent=new Intent(this,course.class);
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+       // Toast.makeText(this,"signed in as "+user.getEmail(),Toast.LENGTH_SHORT).show();
+       // gotohome();
         if(user!=null)
         {
-            Toast.makeText(this,user.getEmail(),Toast.LENGTH_LONG).show();
+            Toast.makeText(this,"signed in as "+user.getEmail(),Toast.LENGTH_SHORT).show();
             gotohome();
         }
         else
@@ -83,7 +86,7 @@ public class MainActivity extends AppCompatActivity implements ValueEventListene
     protected void onStop() {
         super.onStop();
         if (mAuthListener != null) {
-            mAuth.removeAuthStateListener(mAuthListener);
+            mAuth.removeAuthStateListener(this);
         }
     }
 
@@ -118,7 +121,13 @@ public class MainActivity extends AppCompatActivity implements ValueEventListene
             addcourse_dialog=mbuilder.create();
             addcourse_dialog.show();
         }
-       // if(v==findViewById(R.id.tex))
+        if(v==findViewById(R.id.signout))
+        {
+            Toast.makeText(this,"logged out",Toast.LENGTH_SHORT).show();
+             mAuth.signOut();
+            final Intent intent1=new Intent(getApplicationContext(),LoginActivity.class);
+            startActivity(intent1);
+        }
     }
 
 
@@ -149,11 +158,17 @@ public class MainActivity extends AppCompatActivity implements ValueEventListene
 
     @Override
     public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+        Toast.makeText(getApplicationContext(),"authstate changed",Toast.LENGTH_SHORT);
         FirebaseUser user = firebaseAuth.getCurrentUser();
-        if (user != null) {
-
+        if (user != null)
+        {
+            //Toast.makeText(this,"signed in as"+ user.getEmail(),Toast.LENGTH_SHORT).show();
+          //  final Intent intent1=new Intent(getApplicationContext(),MainActivity.class);
+          //  startActivity(intent1);
+         //gotohome();
         } else {
-
+          //  final Intent intent1=new Intent(getApplicationContext(),LoginActivity.class);
+           // startActivity(intent1);
 
         }
     }

@@ -1,5 +1,6 @@
 package com.example.dell.myapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -23,6 +24,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class SignupFragment extends Fragment implements View.OnClickListener {
     FirebaseAuth mAuth;
     View view;
+    Intent intent;
    // Button signup;
 
     @Nullable
@@ -46,9 +48,17 @@ public class SignupFragment extends Fragment implements View.OnClickListener {
             mAuth.createUserWithEmailAndPassword(email, pass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                 @Override
                 public void onComplete(@NonNull Task<AuthResult> task) {
-                    Toast.makeText(getContext(), "Account Created Succesfully go to login page", Toast.LENGTH_LONG).show();
-                    editText.setText("");
-                    editText3.setText("");
+                    if(task.isSuccessful()) {
+                        Toast.makeText(getContext(), "Account Created Succesfully", Toast.LENGTH_LONG).show();
+                        editText.setText("");
+                        editText3.setText("");
+                        intent = new Intent(getContext(), MainActivity.class);
+                        startActivity(intent);
+                    }
+                    else
+                    {
+                        Toast.makeText(getContext(), "try again", Toast.LENGTH_SHORT).show();
+                    }
                 }
             });
         }
