@@ -1,0 +1,12 @@
+<android.support.v4.view.ViewPager
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/pager"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<android.support.v4.view.PagerTabStrip
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:background="#90CAF9">
+
+</android.support.v4.view.PagerTabStrip>
+</android.support.v4.view.ViewPager>

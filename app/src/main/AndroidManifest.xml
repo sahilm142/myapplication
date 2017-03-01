@@ -17,8 +17,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".course" />
-        <activity android:name=".take_attendence"></activity>
+        <activity
+            android:name=".course"
+            android:label="Course" />
+        <activity
+            android:name=".take_attendence"
+            android:label="Attendence" />
+        <activity android:name=".LoginActivity"></activity>
     </application>
 
 </manifest>

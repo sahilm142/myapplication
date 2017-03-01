@@ -1,6 +1,8 @@
 package com.example.dell.myapplication;
 
 import android.content.Intent;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -14,6 +16,8 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -24,59 +28,70 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements ValueEventListener,AdapterView.OnItemClickListener,FirebaseAuth.AuthStateListener{
 
     FirebaseDatabase database;
     DatabaseReference mref,cref;
     TextView textView;
-    Button save,save1,save3,save4;
+    Intent intent;
+    Button save;
     ListView courses_list;
     ArrayAdapter<String> arrayAdapter;
     ArrayList<String> arrayList=new ArrayList<>();
     AlertDialog addcourse_dialog;
+    FirebaseAuth mAuth;
+    FirebaseAuth.AuthStateListener mAuthListener;
+    ValueEventListener valueEventListener;
     String course_node;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         database=FirebaseDatabase.getInstance();
+        mAuth = FirebaseAuth.getInstance();
+        intent=new Intent(this,course.class);
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        if(user!=null)
+        {
+            Toast.makeText(this,user.getEmail(),Toast.LENGTH_LONG).show();
+            gotohome();
+        }
+        else
+        {
+            final Intent intent1=new Intent(getApplicationContext(),LoginActivity.class);
+            startActivity(intent1);
+        }
+
+    }
+    public  void gotohome()
+    {
         mref=database.getReference().child("courses");//mref.setValue("courses");
         courses_list=(ListView)findViewById(R.id.courses_list);
         textView=(TextView)findViewById(R.id.textView2);
         arrayAdapter=new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,arrayList);
         courses_list.setAdapter(arrayAdapter);
-            mref.addListenerForSingleValueEvent(new ValueEventListener() {
-                @Override
-                public void onDataChange(DataSnapshot dataSnapshot) {
-                    Iterable<DataSnapshot> children=dataSnapshot.getChildren();
-                    for (DataSnapshot child:children
-                            ) {
-                        String a=child.getKey();
-                        arrayList.add(a);
-                        arrayAdapter.notifyDataSetChanged();
-                    }
-
-
-                }
-                @Override
-                public void onCancelled(DatabaseError databaseError) {
-
-                }
-            });
-
-        final Intent intent=new Intent(this,course.class);
-        courses_list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                intent.putExtra("course_name",arrayList.get(i));
-               startActivity(intent);
-            }
-        });
-
+        mref.addValueEventListener(this);
+        courses_list.setOnItemClickListener(this);
+    }
+    @Override
+    protected void onStart() {
+        super.onStart();
+        mAuth.addAuthStateListener(this);
     }
 
+    @Override
+    protected void onStop() {
+        super.onStop();
+        if (mAuthListener != null) {
+            mAuth.removeAuthStateListener(mAuthListener);
+        }
+    }
 
-
+    @Override
+    protected void onPause() {
+       // Toast.makeText(this,"ompause",Toast.LENGTH_LONG).show();
+        super.onPause();
+    }
 
     public  void function(View v)
     {
@@ -96,8 +111,6 @@ public class MainActivity extends AppCompatActivity {
                     arrayList.add(course_name);
                    arrayAdapter.notifyDataSetChanged();
                     cref=mref.child(course_name);
-                    MainActivity.student student=new MainActivity.student(1,3);
-                    //int [] a={0,1,2};
                     cref.setValue(course_name);
                 }
             });
@@ -105,13 +118,43 @@ public class MainActivity extends AppCompatActivity {
             addcourse_dialog=mbuilder.create();
             addcourse_dialog.show();
         }
-    }
-    public static class student
-    {
-        int roll,cgpa;
-        public student(int a,int b) {
-        this.roll=a;this.cgpa=b;
-        }
+       // if(v==findViewById(R.id.tex))
     }
 
+
+    @Override
+    public void onDataChange(DataSnapshot dataSnapshot) {
+        Iterable<DataSnapshot> children=dataSnapshot.getChildren();
+        for (DataSnapshot child:children
+                ) {
+            String a=child.getKey();
+            arrayList.add(a);
+            arrayAdapter.notifyDataSetChanged();
+        }
+
+    }
+
+    @Override
+    public void onCancelled(DatabaseError databaseError) {
+
+    }
+
+    @Override
+    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+
+        intent.putExtra("course_name",arrayList.get(i));
+        startActivity(intent);
+
+    }
+
+    @Override
+    public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+        FirebaseUser user = firebaseAuth.getCurrentUser();
+        if (user != null) {
+
+        } else {
+
+
+        }
+    }
 }

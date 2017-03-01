@@ -3,39 +3,12 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\jars\classes.jar"
+        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
-        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.0.1_cf68824e334dd14c0a87468de1c8bb3556f41b2d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
-        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-10.0.1_1e37228ede3d2b0f583d1a64efac0ae52c53bde9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
-        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-10.0.1_19c730258736230618c131280f47de631016cc2f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_a140bc242b6a381bae675f137b4d43dc2e11eb1f\classes.dex" />
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_58b1bcd0c34cb1e6c2042a35eda721585ad53326\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -75,30 +48,21 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_50fc7bbcbfc0a83cb4ad91db833f8b44dce5157a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Dell\AndroidStudioProjects\MyApplication3\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
         <dex dex="C:\Users\Dell\AndroidStudioProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-10.0.1_06078791c4ddc9c8191296ccbcbacdec5fd876b4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_4431a9d3715ea38a15615eebd81d8e56b3e58e1a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
-        <dex dex="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.0.1_990ceb5978f98284a3c02d191cf58a80e5fb1398\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -111,6 +75,294 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Dell\AndroidStudioProjects\MyApplication3\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="C:\Users\Dell\AndroidStudioProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.0.1_ee201bcb0b37cdb880b098c7fc278270d25c323d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
+        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.2.0_13ab57549f77f35412e56ab886a4889356d10045\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dell\AndroidStudioProjects\MyApplication3\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Dell\AndroidStudioProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_afdd287d48dd679a41bbc3cbf399e0666ca2b9b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d5cbbbfe040201c7569478b70a13b58fd11aab4">
+        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-10.2.0_e005d517efd7adfd7e823fc97b1e55f22a9e4f58\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_510ebe713c01c84561c4367f8d918222a0314721\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dell\AndroidStudioProjects\MyApplication3\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ffe5ef8654108d80de16ae867e91494597b7fd39">
+        <dex dex="C:\Users\Dell\AndroidStudioProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_65a5a70d859311bf2b50fa04ace0da53008af437\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="77d75ba827178d6104f5707899ff125fdac4cef0">
+        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_36e702c187977e7295044e3bbb04b8823ea2650c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dell\AndroidStudioProjects\MyApplication3\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Dell\AndroidStudioProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_29fee6d55480aebea3b5b7bc22fba04cb9111047\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="48532a016bb0dfbe7970c147ce784598a515406b">
+        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-10.2.0_44641d007f96923bbd6198901f947591fb2bae7f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_de680cd36f5d8f83da892386f107476d702d35aa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-10.0.1_bc371bef1da3cf5bbebfe9e7efadff30bf4ee506\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_9fffd56f0f90df77356171be899c81b9c5a09818\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_30ad4117c6bdc9d635fcf6c780987b519d71473d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_6b714e803eb956803b9f0ae5169cbbdaf8d172d1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_398c47b55af6bd9862c4b8c0d6b21e37b127a619\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dell\AndroidStudioProjects\MyApplication3\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9fd82f00aafe4128fc50fe68e9618659d4588912">
+        <dex dex="C:\Users\Dell\AndroidStudioProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_1157306b5c8875bc4c83a2f00edb49434c1cfb76\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_190aa10921a2d4d7c1ea556ac6e818163140c1e7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_3029fa24b66a30446c0fb3d301d07ef402cc8171\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dell\AndroidStudioProjects\MyApplication3\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="C:\Users\Dell\AndroidStudioProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-10.0.1_ca9943643f0c59ed359b430e85fd7af98136eeca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0e301f24b283f14b564f660c9abe863af6be5896">
+        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-10.2.0_dcc8c25fb1bbcd9873618a7e4a8b8f838e70688d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
+        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.2.0_935a237fd3a1cfdf16fb720b06ddddeecc96e509\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.0.1_3dc33a8ce07c5cb908b625f28ce50cc85fcfc222\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dell\AndroidStudioProjects\MyApplication3\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Dell\AndroidStudioProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_05a1e8ef8edd706f6d8f5f134cd9a4182c285280\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ce9112e08a027c8620ae693983e38cdbb9f6371b">
+        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.2.0_a04ab0e798b983741e521234b48e81d5121234b4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_74128d109067b03832b13be340cfcc949bc111af\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_989984106929bc053b3f8ea609eacb8868655e03\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_ba465e2204291a2fb6e2fb873b2aa51748660155\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
+        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.2.0_ad9cac0a8f9ed3eafa507092e94b9f8e7e2ba7fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_f4a427155104f248ecc9c3942f5b72762adafbe3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_4431a9d3715ea38a15615eebd81d8e56b3e58e1a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a61e7010aa7be5da53cd1bc5279630510c9a4912">
+        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.2.0_076705d73737141c5caee2d8f97fcbd940a35762\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.0.1_990ceb5978f98284a3c02d191cf58a80e5fb1398\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
@@ -120,48 +372,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_2c30e8b41ffe34e86df4678f63edb2409038e70d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
         <dex dex="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-10.0.1_1b9da0dc5bb0d62f1de971cedd70d8c2285fce5e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
-        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-10.0.1_6159e18aff7749d3fb227ace8e32e9bb6ded4e72\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d5ba904e5a91292913d3d41ea4e696a1c88e2909">
-        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_34571d6a00bdb04f50823ae6ad138a7ce536eca6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dell\AndroidStudioProjects\MyApplication3\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
-        <dex dex="C:\Users\Dell\AndroidStudioProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.0.1_ee201bcb0b37cdb880b098c7fc278270d25c323d\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -183,21 +399,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Dell\AndroidStudioProjects\MyApplication3\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\Dell\AndroidStudioProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_afdd287d48dd679a41bbc3cbf399e0666ca2b9b8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
-        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.0.1_ba327ac61bd3c2c94929b1be66a07764985d7c35\classes.dex" />
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_ebad1cce638be14ad50280949077d13a4790d69f\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -207,42 +414,6 @@
         revision="25.0.2"
         sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
         <dex dex="C:\Users\Dell\AndroidStudioProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_d29e1fc3c299396ac95e3eb23af352cff016d433\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_8ac59c8adc912626d1204762850d77a586a5453d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_510ebe713c01c84561c4367f8d918222a0314721\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
-        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-10.0.1_5369edf7dbf8f85f57a5319267a18cb843ad1f58\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dell\AndroidStudioProjects\MyApplication3\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ffe5ef8654108d80de16ae867e91494597b7fd39">
-        <dex dex="C:\Users\Dell\AndroidStudioProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_65a5a70d859311bf2b50fa04ace0da53008af437\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -291,30 +462,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_3badfc91584f045a2bb69fe9848484f51209a0c2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
-        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.0.1_e07f75e254fc3f4c96685343c9f4389bf99e1139\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dell\AndroidStudioProjects\MyApplication3\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\Dell\AndroidStudioProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_29fee6d55480aebea3b5b7bc22fba04cb9111047\classes.dex" />
+        sha1="91857b604f50a3b31fecda1ec014af8ac4516c1b">
+        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_bd20ec2df5ea157526afc945a667d46ee8efe62b\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -327,21 +480,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_bdb85777f26a5867017f306d01bdf44ab624f34b\classes.dex" />
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_261aebcf77ec83a9608256d085b77acd5a608122\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\jars\classes.jar"
+        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\10.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
-        <dex dex="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-10.0.1_bc371bef1da3cf5bbebfe9e7efadff30bf4ee506\classes.dex" />
+        sha1="94fca868854457ede6df15c902938468c71d579e">
+        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-10.2.0_1ec497693116ec431c31adc31fd07f4438bdac0c\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -354,30 +507,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_0892c1e38f540bdb89fbf96396248f69fd4a54c3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
         <dex dex="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.0.1_11c73524a770289d11770e61e6931235c93279a5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_5d5375f17b6cbf32f74dd51f8fdd9919fa2ae13d\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -399,60 +534,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
-        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.0.1_5f9971153a6b3f2a4c2e1f48cc16de32cfd66977\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_30ad4117c6bdc9d635fcf6c780987b519d71473d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_6b714e803eb956803b9f0ae5169cbbdaf8d172d1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_398c47b55af6bd9862c4b8c0d6b21e37b127a619\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7ccd743f1890583ec04d1ae7b0f24e6b85aaa796">
-        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_f81fa24bc1372439276fb6d90eff718441848bba\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dell\AndroidStudioProjects\MyApplication3\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9fd82f00aafe4128fc50fe68e9618659d4588912">
-        <dex dex="C:\Users\Dell\AndroidStudioProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_1157306b5c8875bc4c83a2f00edb49434c1cfb76\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Dell\AndroidStudioProjects\MyApplication3\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
@@ -471,21 +552,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_40f980ae597df8a3c152c2a8d5adbca0f0ad71c8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_89b72c30d0654d5130e5ea12e840941f674de43f\classes.dex" />
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_43c3605fc1e0c777e47457057b5c4ed6bea65a8c\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -498,30 +570,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_b3832fe27b520c4bcec776400888d9384c14529e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_3029fa24b66a30446c0fb3d301d07ef402cc8171\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dell\AndroidStudioProjects\MyApplication3\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
-        <dex dex="C:\Users\Dell\AndroidStudioProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-10.0.1_ca9943643f0c59ed359b430e85fd7af98136eeca\classes.dex" />
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_106cc5ce30746b27c5a2dd3513fb2d86d46075eb\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -552,21 +606,30 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_59b3aff8a06eabfda2eb6c1a9a4f73db2d4f574f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="cb95b8bfa92132c6f9035b631bcbe82045901538">
         <dex dex="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f7370f582c83df35107cf774ee597a48422c7b04\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_d1c87f29bf4fa7a08956057556a10c90850401b5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_6bdc7cb5ae5150a2ce5c29b9403a5bdac3fb3035\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -588,39 +651,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_c57010d7e79faea501582bcb5fe8766beb2c3aac\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_2d483eb38f92d9370824f9983e170dbbc667c97f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
-        <dex dex="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.0.1_3dc33a8ce07c5cb908b625f28ce50cc85fcfc222\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dell\AndroidStudioProjects\MyApplication3\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\Dell\AndroidStudioProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_05a1e8ef8edd706f6d8f5f134cd9a4182c285280\classes.dex" />
+        sha1="3d6951cb416ebf8c66a32b9480808ca247b68344">
+        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-10.2.0_78225614e06bb8a648c2a9b0f1cf877d80271dfd\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -633,30 +669,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Dell\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_989984106929bc053b3f8ea609eacb8868655e03\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Dell\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
         <dex dex="C:\Users\Dell\AndroidStudioProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_8ba16205490eae28d90f6a381941e5162594a6e6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\Dell\Desktop\dekstop\AndroidProjects\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_31957f8edb5c55f67721104509b880e349fd4812\classes.dex" />
     </item>
 
 </items>

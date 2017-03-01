@@ -18,16 +18,6 @@
         android:layout_marginTop="88dp"
         android:id="@+id/courses_list"/>
 
-    <TextView
-        android:text="Courses"
-        android:textSize="25dp"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:id="@+id/textView2"
-        android:layout_below="@+id/addcourse_id"
-        android:layout_alignEnd="@+id/addcourse_id"
-        android:layout_marginTop="11dp" />
-
     <Button
         android:text="Add Course"
         android:layout_width="wrap_content"
@@ -35,5 +25,26 @@
         android:id="@+id/addcourse_id"
         android:onClick="function"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="24dp" />
+
+    <TextView
+        android:text="Courses"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/textView2"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/addcourse_id"
+        android:layout_alignStart="@+id/addcourse_id" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/courses_list"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="66dp"
+        android:id="@+id/textView6" />
+
 </RelativeLayout>
