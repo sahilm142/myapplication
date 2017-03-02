@@ -29,6 +29,7 @@ public class course extends AppCompatActivity {
     Button save;
     ListView listView;
     AlertDialog addstudent_dialog;
+    String email;
     ArrayList<String> name_list=new ArrayList<>();
     ArrayAdapter<String> arrayAdapter;
     @Override
@@ -40,12 +41,14 @@ public class course extends AppCompatActivity {
         listView=(ListView)findViewById(R.id.student_list);
         Intent intent=getIntent();
         course_name=intent.getStringExtra("course_name");
-        mref=database.getReference().child("courses").child(course_name);
+        email=intent.getStringExtra("email");
+        mref=database.getReference().child("faculty").child(email).child("courses").child(course_name).child("students");
         textView.setText(course_name);
         arrayAdapter=new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,name_list);
         listView.setAdapter(arrayAdapter);
          intent1=new Intent(this,take_attendence.class);
         intent1.putExtra("course_name",course_name);
+        intent1.putExtra("email",email);
         mref.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {

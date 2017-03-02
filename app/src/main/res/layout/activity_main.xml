@@ -8,25 +8,25 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.dell.myapplication.MainActivity">
+    tools:context="com.example.dell.myapplication.MainActivity"
+    android:background="#1E88E5">
+
+    <Button
+        android:text="Signout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signout"
+        android:onClick="function"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
 
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:id="@+id/courses_list"
         android:layout_below="@+id/addcourse_id"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="88dp"
-        android:id="@+id/courses_list"/>
-
-    <Button
-        android:text="Add Course"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/addcourse_id"
-        android:onClick="function"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="24dp" />
+        android:layout_marginTop="18dp" />
 
     <TextView
         android:text="Courses"
@@ -34,20 +34,18 @@
         android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:id="@+id/textView2"
-        android:layout_marginTop="13dp"
-        android:layout_below="@+id/addcourse_id"
-        android:layout_alignStart="@+id/addcourse_id" />
+        android:layout_alignBottom="@+id/signout"
+        android:layout_alignParentStart="true" />
 
     <Button
-        android:text="Signout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_toEndOf="@+id/addcourse_id"
-        android:layout_marginStart="61dp"
-        android:layout_marginTop="21dp"
-        android:id="@+id/signout"
-        android:onClick="function"/>
+        android:text="+"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/addcourse_id"
+        android:onClick="function"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2" />
 
 
 </RelativeLayout>

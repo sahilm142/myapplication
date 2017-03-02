@@ -1,6 +1,7 @@
 package com.example.dell.myapplication;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AlertDialog;
@@ -28,7 +29,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class MainActivity extends AppCompatActivity implements ValueEventListener,AdapterView.OnItemClickListener,FirebaseAuth.AuthStateListener{
+public class MainActivity extends AppCompatActivity implements ValueEventListener,AdapterView.OnItemClickListener{
 
     FirebaseDatabase database;
     DatabaseReference mref,cref;
@@ -40,9 +41,8 @@ public class MainActivity extends AppCompatActivity implements ValueEventListene
     ArrayList<String> arrayList=new ArrayList<>();
     AlertDialog addcourse_dialog;
     FirebaseAuth mAuth;
+    String email;
     FirebaseAuth.AuthStateListener mAuthListener;
-    ValueEventListener valueEventListener;
-    String course_node;
     //View v;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,12 +51,14 @@ public class MainActivity extends AppCompatActivity implements ValueEventListene
         database=FirebaseDatabase.getInstance();
         mAuth = FirebaseAuth.getInstance();
         intent=new Intent(this,course.class);
+        SharedPreferences sharedPreferences=getSharedPreferences("mydata",this.MODE_PRIVATE);
+        SharedPreferences.Editor editor=sharedPreferences.edit();
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-       // Toast.makeText(this,"signed in as "+user.getEmail(),Toast.LENGTH_SHORT).show();
-       // gotohome();
         if(user!=null)
         {
             Toast.makeText(this,"signed in as "+user.getEmail(),Toast.LENGTH_SHORT).show();
+            email=user.getEmail().toString().replace('.',',');
+            editor.putString("email",user.getEmail().replace('.',','));
             gotohome();
         }
         else
@@ -68,28 +70,16 @@ public class MainActivity extends AppCompatActivity implements ValueEventListene
     }
     public  void gotohome()
     {
-        mref=database.getReference().child("courses");//mref.setValue("courses");
+        SharedPreferences sharedPreferences=getSharedPreferences("mydata",this.MODE_PRIVATE);
+        //String email=sharedPreferences.getString("email","default");
+        mref=database.getReference().child("faculty").child(email).child("courses");//mref.setValue("courses");
         courses_list=(ListView)findViewById(R.id.courses_list);
         textView=(TextView)findViewById(R.id.textView2);
         arrayAdapter=new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,arrayList);
         courses_list.setAdapter(arrayAdapter);
-        mref.addValueEventListener(this);
+        mref.addListenerForSingleValueEvent(this);
         courses_list.setOnItemClickListener(this);
     }
-    @Override
-    protected void onStart() {
-        super.onStart();
-        mAuth.addAuthStateListener(this);
-    }
-
-    @Override
-    protected void onStop() {
-        super.onStop();
-        if (mAuthListener != null) {
-            mAuth.removeAuthStateListener(this);
-        }
-    }
-
     @Override
     protected void onPause() {
        // Toast.makeText(this,"ompause",Toast.LENGTH_LONG).show();
@@ -152,24 +142,9 @@ public class MainActivity extends AppCompatActivity implements ValueEventListene
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
         intent.putExtra("course_name",arrayList.get(i));
+        intent.putExtra("email",email);
         startActivity(intent);
 
     }
 
-    @Override
-    public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-        Toast.makeText(getApplicationContext(),"authstate changed",Toast.LENGTH_SHORT);
-        FirebaseUser user = firebaseAuth.getCurrentUser();
-        if (user != null)
-        {
-            //Toast.makeText(this,"signed in as"+ user.getEmail(),Toast.LENGTH_SHORT).show();
-          //  final Intent intent1=new Intent(getApplicationContext(),MainActivity.class);
-          //  startActivity(intent1);
-         //gotohome();
-        } else {
-          //  final Intent intent1=new Intent(getApplicationContext(),LoginActivity.class);
-           // startActivity(intent1);
-
-        }
-    }
 }
