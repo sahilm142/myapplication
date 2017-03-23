@@ -1,11 +1,11 @@
 package com.example.dell.myapplication;
 
+import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -20,7 +20,21 @@ public class LoginActivity extends AppCompatActivity {
         viewPager.setAdapter(new adapter(fragmentManager));
     }
 }
+/* /*added on 23/03/2017
+ **intent to sign up activity
 
+    TextView signUpScreen = (TextView) findViewById(R.id.signup);
+
+// Listening to register new account link
+        signUpScreen.setOnClickListener(new View.OnClickListener() {
+
+public void onClick(View v) {
+        // Switching to Register screen
+        Intent i = new Intent(getApplicationContext(), SignupFragment.class);
+        startActivity(i);
+        }
+        });
+/* end */
 class adapter extends FragmentStatePagerAdapter {
     public adapter(FragmentManager fm) {
         super(fm);

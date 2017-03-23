@@ -2,247 +2,229 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_9e1331cdd153fc0051749233cc802dcd7d084d7b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0ba15e293b5aa9db0dca56b75343477c3b1ce88f">
-        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a05520de6702f8c58f256366ec47329743cb05a8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_1662b13eeb9868c32a57a91a90917b71022cc04f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3d6951cb416ebf8c66a32b9480808ca247b68344">
-        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-10.2.0_437a109e87d462ea8d5f06b77a66c554b42a8a04\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="77d592870185d042296d1650ce0c23d4a333d5b4">
-        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_fb1b8a11965cbceb100c7c583fe0af0a8e76aed1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_3bf58de99dcf463460db3eb63c7a53b933ab965b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\10.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="94fca868854457ede6df15c902938468c71d579e">
-        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-10.2.0_4c3797da42704c7583bdc568b4bdba2976f9edea\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_b89d47f342c1eda01eb73fb2df3ac2c50746047d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_4cc7a46bb3458e1b96f06242606bc64f9f230f46\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_dd8f581b01ff19bdb443fff5498e9dc17212e9bd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_ccfc820cfc9fe7b2128bd7c5d3c2ead36748cb47\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0d5cbbbfe040201c7569478b70a13b58fd11aab4">
-        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-10.2.0_e07afdafb322171d2919d62bc1e444bb69a95ddb\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_0846bc53b799f5da7844e3311b951f609839cf62\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ce9112e08a027c8620ae693983e38cdbb9f6371b">
-        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.2.0_53c4bc9da761ef995dea0cd79e17f0c62bf12f0f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.2.0\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Sahil\.android\build-cache\b52270aa5ec8e8ff3cba7d22118202cb6fba3695\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="a61e7010aa7be5da53cd1bc5279630510c9a4912">
-        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.2.0_a24e0bfbcd78bdf26cf3f071538844f09fd05e30\classes.dex" />
+        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\pre-dexed\debug\classes_4f6ef3bb70647e3cab17469f5073b894231d6cb8.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Sahil\.android\build-cache\341ad15994498f1c6d667e2cc31bce3fffa8f3a3\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_5e35248d30f2f738833bbfcf1a27feb0a758d7a1\classes.dex" />
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\pre-dexed\debug\classes_9d752777f645cf5777d555a50295a9c949f0597a.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_62a9f19238e8cd6903ef8ffb94ac5b2c71fca5c4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.2.0\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Sahil\.android\build-cache\1ec29cc3e4ac1e6b1e3323810c375b732076d65f\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
-        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.2.0_050e3583083eada6ffbe7df276c5df4f232ab844\classes.dex" />
+        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\pre-dexed\debug\classes_ef5c13c5eb67ed99c20f7ba5739ae671cb01a52c.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Sahil\.android\build-cache\8fd8ebeb74c2d6464c7afec4270907430fa083e2\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_f1d781218b29f6f14d12bd1d194bee0172483bce\classes.dex" />
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_07d373c39f9c86dcbbe249b73e2a98602e40c36a.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Sahil\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Sahil\.android\build-cache\7c9b3eef9303a7e97988a2e9e0ba4960afe5fe9b\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_31636a6499b03f558b33dd1eda92846f951cfebb\classes.dex" />
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\pre-dexed\debug\classes_19e58545c559ea535be91afc6338d9557ad39d88.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.2.0\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Sahil\.android\build-cache\456a2351259da28499ca5f1bdeedc7fe2b924132\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
-        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.2.0_3866a40af0974ec90cb1df2b9016b99afd9b7252\classes.dex" />
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\pre-dexed\debug\classes_b5feb8a87062698ae8fe0701a07fe8bc33d40bfe.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Sahil\.android\build-cache\8fd8ebeb74c2d6464c7afec4270907430fa083e2\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_519437257c4717a182d8a2b0259f9a361f8f3e2b\classes.dex" />
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\pre-dexed\debug\classes_c82037155b393bb229d6f8480bf550b9fc12b235.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.2.0\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Sahil\.android\build-cache\bcf6a0789b07cbfb020e161802965fedf1c222bf\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
-        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.2.0_928425fa05acf2af4783f79bef7e27c60e4520c8\classes.dex" />
+        sha1="94fca868854457ede6df15c902938468c71d579e">
+        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\pre-dexed\debug\classes_69d5cee73f31c149e281c5d6c58a5bedaee6b86f.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\10.2.0\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Sahil\.android\build-cache\b4aa18e01dd90bd2cde1dc883889939c24e7f469\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="48532a016bb0dfbe7970c147ce784598a515406b">
-        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-10.2.0_9f93da97e44e0c8f1bbe32d145e38c8e8dcd4f19\classes.dex" />
+        sha1="3d6951cb416ebf8c66a32b9480808ca247b68344">
+        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\pre-dexed\debug\classes_3277a65d9a48d5fb8e80f97870d1950d39739ebe.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_62717ed01049e582e5e9ee3f3dd7c4e532024729\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.2.0\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Sahil\.android\build-cache\b14b2e56f68ca0fbe58723cc78df125a011e59df\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="0e301f24b283f14b564f660c9abe863af6be5896">
-        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-10.2.0_b17a033ae04bf4637e58cc3be3b415896ff0b4a8\classes.dex" />
+        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\pre-dexed\debug\classes_a4bc4d265a2941c7be081c9a00f5263fd90b3023.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Sahil\.android\build-cache\341ad15994498f1c6d667e2cc31bce3fffa8f3a3\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_3995ed5d0952b506b1f42e2ffda997936cc2594b\classes.dex" />
+        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_35123c1d9ada02c991f73fd7356df149b986e266.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sahil\.android\build-cache\d1767f55932ee614fb1dc84e9857fcb12c435798\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\pre-dexed\debug\classes_d084226bd164d06815d862586ecd91fdfcdb412e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sahil\.android\build-cache\215f06db1dcb8cf4eb46cd0b291ba105dbb9b6b6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\pre-dexed\debug\classes_4c9700b41f1d31399c8641ed9ef526be44345489.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sahil\.android\build-cache\065c162a88c9d6e35fdcedcffc3deb04382d2c08\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\pre-dexed\debug\classes_8017ebdd3264c842026b041f3ef1c8c7ab774350.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sahil\.android\build-cache\6a8c36a527fa751a0195f1d7d547e640dad66162\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
+        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\pre-dexed\debug\classes_376d39ce6ff3d17d8a4cb2e693167c7f43849c1a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sahil\.android\build-cache\d1767f55932ee614fb1dc84e9857fcb12c435798\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_f18c38ab412b1532f61ac5046dfc570cd0a467ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sahil\.android\build-cache\ad4048c8ac9869f09b33dcd372d97edfea2e599d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
+        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\pre-dexed\debug\classes_4cb0633edc04aa29491b51623c761bb48d1c8d62.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sahil\.android\build-cache\07235f961aee1322cdb02b7d647d5392670bae77\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\pre-dexed\debug\classes_2aa11fbef839d207d73c4f7824034d90b79bd195.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sahil\.android\build-cache\7c9b3eef9303a7e97988a2e9e0ba4960afe5fe9b\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_68eafacc0f52ad54ef91c82d084f1c1958a0ac4d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sahil\.android\build-cache\065c162a88c9d6e35fdcedcffc3deb04382d2c08\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_3875e6fba193db06a31bc1a1b9c7d46d52b2ba3c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sahil\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_31636a6499b03f558b33dd1eda92846f951cfebb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sahil\.android\build-cache\0340a05b070672b06ce713593e5051ca61805cde\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ce9112e08a027c8620ae693983e38cdbb9f6371b">
+        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\pre-dexed\debug\classes_2b4b5637d4a9e6fb813193a52120b81cb3a6b7fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sahil\.android\build-cache\d0548af3d7e553966d63a328031b84d897fe199b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="48532a016bb0dfbe7970c147ce784598a515406b">
+        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\pre-dexed\debug\classes_ea5f8491960b855b640d30a42f6c3abde87040f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sahil\.android\build-cache\a6ace4a823c70fac17e0062b500a3210b6ae5553\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\pre-dexed\debug\classes_3778f415bd284829b8450e47c2fd03ab2f814075.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sahil\.android\build-cache\277f8bf83840d83cdb54a205adf31c5d0c17584c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d5cbbbfe040201c7569478b70a13b58fd11aab4">
+        <dex dex="C:\Users\Sahil\Desktop\myapplication\app\build\intermediates\pre-dexed\debug\classes_61fe35ace9af3c89489cb6b1e9ee42bed9c2e861.jar" />
     </item>
 
 </items>
