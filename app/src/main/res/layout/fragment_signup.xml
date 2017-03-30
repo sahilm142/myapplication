@@ -8,7 +8,7 @@
     <ImageView
         android:layout_width="100dp"
         android:layout_height="60dp"
-        android:src="@mipmap/signup_icon"
+        android:src="@drawable/signup_icon"
         android:id="@+id/signup_icon"
         android:layout_marginTop="13dp"
         android:layout_alignParentTop="true"
