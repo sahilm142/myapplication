@@ -2,4 +2,8 @@
     <string name="app_name">My Application</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-   </resources>
+    <string name="radio_faculty">Faculty</string>
+    <string name="radio_student">Student</string>
+</resources>
+
+

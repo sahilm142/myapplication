@@ -1,9 +1,9 @@
 package com.example.dell.myapplication;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -91,6 +91,7 @@ public class course extends AppCompatActivity {
             mbuilder.setView(addstudent_view);
             addstudent_dialog=mbuilder.create();
             addstudent_dialog.show();
+
         }
         if(v==findViewById(R.id.take_atttendence))
         {

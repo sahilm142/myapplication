@@ -65,7 +65,7 @@
         android:layout_below="@+id/signin"
         android:layout_marginTop="40dip"
         android:layout_marginBottom="40dip"
-        android:text="Don't have account? Swipe right"
+        android:text="Don't have account? Swipe right to sign up"
         android:gravity="center"
         android:textSize="20dip"
         android:textColor="#0b84aa"/>

@@ -23,7 +23,8 @@
         <activity
             android:name=".take_attendence"
             android:label="Attendence" />
-        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".EnrollActivity"></activity>
     </application>
 
 </manifest>

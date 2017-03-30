@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     android:background="#D32F2F"
 >
+
     <ImageView
         android:layout_width="100dp"
         android:layout_height="60dp"
@@ -80,14 +81,41 @@
         android:layout_below="@+id/textView11"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true" />
+    <RadioGroup
+        android:id="@+id/radioSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/editText3"
+        android:layout_toEndOf="@+id/signup">
+
+    </RadioGroup>
+
 
     <Button
         android:text="Sign up"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="41dp"
         android:id="@+id/signup"
+        android:layout_below="@+id/radioStudent"
+        android:layout_alignEnd="@+id/signup_icon" />
+
+    <RadioButton
+        android:id="@+id/radioFaculty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/radio_faculty"
         android:layout_below="@+id/editText3"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignEnd="@+id/textView11"
+        android:layout_marginTop="25dp" />
+
+    <RadioButton
+        android:id="@+id/radioStudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:checked="true"
+        android:text="@string/radio_student"
+        android:layout_alignTop="@+id/radioFaculty"
+        android:layout_toEndOf="@+id/radioSelect" />
 
 </RelativeLayout>
